@@ -1,0 +1,6 @@
+{
+  "name": "SHREE MARUTI KRUPA - Easy Fabric Shopping",
+  "description": "Simple and fast online shopping for shirt fabrics, pant fabrics, and suiting-shirting combos with Cash on Delivery and easy tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
