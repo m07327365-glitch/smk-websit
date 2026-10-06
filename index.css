@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-smk-bg: #F7F5F0;
+  --color-smk-navbar: #111111;
+  --color-smk-footer: #151515;
+  --color-smk-primary: #111111;
+  --color-smk-primary-hover: #2B2B2B;
+  --color-smk-accent: #C8A96B;
+  --color-smk-card: #FFFFFF;
+  --color-smk-border: #E5E0D8;
+  --color-smk-heading: #111111;
+  --color-smk-body: #4A4A4A;
+  --color-smk-muted: #777777;
+  --color-smk-price: #111111;
+  --color-smk-sale: #9B2C2C;
+  --color-smk-footer-text: #D9D4CA;
+  --color-smk-navbar-text: #FFFFFF;
+}
+
+:root {
+  --smk-bg: #F7F5F0;
+  --smk-navbar: #111111;
+  --smk-footer: #151515;
+  --smk-primary: #111111;
+  --smk-primary-hover: #2B2B2B;
+  --smk-accent: #C8A96B;
+  --smk-card: #FFFFFF;
+  --smk-border: #E5E0D8;
+  --smk-heading: #111111;
+  --smk-body: #4A4A4A;
+  --smk-muted: #777777;
+  --smk-price: #111111;
+  --smk-sale: #9B2C2C;
+  --smk-footer-text: #D9D4CA;
+  --smk-navbar-text: #FFFFFF;
+}
+
+html, body {
+  background-color: #F7F5F0;
+  color: #4A4A4A;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar styling in palette */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F5F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5E0D8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C8A96B;
+}
